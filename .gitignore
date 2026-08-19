@@ -1,0 +1,44 @@
+# Simulation and synthesis outputs
+*.vvp
+*.out
+*.wdb
+*.vcd
+work/
+vsim.wlf
+transcript
+
+# Vivado
+.Vivado/
+*.jou
+*.log
+*.xpr
+*.xise
+.xilinx/
+isa_tb.wdb
+
+# ModelSim
+work/
+*.wlf
+*.asdb
+
+# Quartus
+db/
+incremental_db/
+output_files/
+
+# Generated files
+*.o
+*.exe
+*.so
+*.a
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+build/
+dist/
